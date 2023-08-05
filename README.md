@@ -1,4 +1,5 @@
 # Sales Intelligence with Power BI
+![](image_sales_intelligence/model_1.PNG)
 
 ### Introduction
 This project is to display my data modeling skills, DAX knowledge and Visualization skills  acquired in the data analytics track with Quantum Analytics NG of learning using POWER BI.
