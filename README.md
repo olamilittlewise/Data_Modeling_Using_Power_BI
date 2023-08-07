@@ -18,3 +18,34 @@ After the critical thinking, six questions need answers:
 - Which Region/location has the highest sales made?
 - Which Sales rep has made the highest sales?
 - Which of our Customers purchased the highest sales?
+
+### Data Sourcing
+Data was normalized( i.e information was categorically separated into different tables) and resulted in 5 tables:
+
+- Sales table
+- Customers table
+- Sales Reps table
+- Location table
+- Products table
+
+Data was then, locally extracted from Excel Workbook into Power BI for transformation, analysis and visualization.
+
+### Data Transformation
+ The table appeared to be clean. The quality of each column is 100% with no error or nulls. Below is a preview of the tables:
+
+|      |       |
+| :--------: | :---------: |
+| Sales Table | Customers Table |
+![](image_sales_intelligence/Sales.PNG)      | ![](image_sales_intelligence/Customers.PNG) |
+![](image_sales_intelligence/Sales_rep.PNG)      | ![](image_sales_intelligence/Locations.PNG) |
+
+
+
+
+
+
+
+
+
+
+
