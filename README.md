@@ -79,6 +79,8 @@ The report contains three(3) pages, which include the following
 ##### Correlation Analysis
 ![](image/Correlation_analysis.PNG)
 
+You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMWI4OWZkYTAtZjBmNy00Yjk0LWI3YTItOTY5ZDE5YTgwZGI0IiwidCI6IjE2NjA4MjEwLTIxOWMtNGVlNC1iZjk0LTNlNDNkMGU1YzIwYyJ9)
+
 ### Conclusions/Recommendations
 - The West region of the country generated the highest sales and profits.
 - The organic team happened to be the team that generated the highest sales for the company and the team needs to be compensated.
