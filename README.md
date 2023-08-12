@@ -6,9 +6,11 @@ This project is to display my data modeling skills, DAX knowledge, and Visualiza
 The problem statement is an imaginary case scenario I thought about after seeing the dataset.
 
 ### Problem Statements
-The stakeholders of an international company in the United States wish to award the customer with the highest sales and the best sales rep, 
-the sales change relative to last year, and also want to know the key criteria that are the drivers of performance. 
-The stakeholders have hereby consulted me with carrying out a quick analysis and report. 
+The stakeholders of an international company have hereby consulted me with carrying out a quick analysis and report on the following:
+- Customer with the highest sales 
+- sales change relative to last year
+- Key drivers of sales performance
+- other relevant insights
 
 After the critical thinking, six questions need answers:
 
@@ -37,10 +39,41 @@ Data was then, locally extracted from Excel Workbook into Power BI for transform
 | :--------: | :---------: |
 | Sales Table | Customers Table |
 ![](image_sales_intelligence/Sales.PNG)      | ![](image_sales_intelligence/Customers.PNG) |
+| Sales Representative Table | Location Table |
 ![](image_sales_intelligence/Sales_rep.PNG)      | ![](image_sales_intelligence/Locations.PNG) |
+| Product Table |  |
+![](image_sales_intelligence/Products.PNG)
 
+### Data Model Design
+There are five data required for this analysis. Therefore, appropriate modeling is required. A star Schema is designed with the Sales Table representing the fact table containing all redundant data, and to which other dimension tables are modeled or mapped with, using the column that is common. The sales Table has been modeled with:
 
+- Customers Tables via "Customer ID"
+- SalesRep Table using the "SalesRep ID"
+- Locations Table using the "Location ID"
+- Products Table using "Product ID"
 
+  ![](image_sales_intelligence/Model_2.PNG)
+
+### Visualization
+Analysis was done using simple visuals since the tables have been perfectly modelled together.
+The report contains three(3) pages, which include the following
+
+#### 1. Sales Intelligence
+- Cumulative sales current year VS Cumulative sales last year which can also be filtered down to quarters of the year relative to last year quarter
+- Total sales, Total profits, and Total transactions
+
+#### 2. Margin Analysis
+- Total Sales by Product
+- Monthly moving averages of the current year's profits relative to the last year's profits
+- Profit margin by city
+- Total sales by region
+
+#### Correlation Analysis
+- Transaction and sales correlation for customer
+- Discount and sales correlation for customer
+
+  
+  
 
 
 
