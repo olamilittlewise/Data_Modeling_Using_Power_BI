@@ -1,4 +1,4 @@
-# Sales Intelligence with Power BI
+# Data Modeling with Power BI
 ![](image/model_1.PNG)
 
 ### Introduction
